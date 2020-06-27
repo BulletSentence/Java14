@@ -1,3 +1,5 @@
+package basics;
+
 public class dot {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package basics;
+
 import java.text.DecimalFormat;
 
 public class temp {

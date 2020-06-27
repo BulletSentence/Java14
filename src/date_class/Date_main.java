@@ -9,7 +9,7 @@ public class Date_main {
         data.month = "10";
         data.year = "1998";
 
-        System.out.println("Birthday: "+data.day+"/"+data.month+"/"+data.year);
+        System.out.println("BDay: " + data.getFormattedData());
 
     }
 }

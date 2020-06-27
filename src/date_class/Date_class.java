@@ -6,4 +6,7 @@ public class Date_class {
     String month;
     String year;
 
+    String getFormattedData(){
+        return day + "/" + month + "/" + year;
+    }
 }

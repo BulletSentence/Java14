@@ -19,7 +19,7 @@ public class Product_main {
         System.out.println("Preço: "+ cellphone.finalprice());
 
         System.out.println(product.name);
-        System.out.println("Preço: "+ product.finalprice());
+        System.out.println("Preço: "+ product.finalprice(0.75));
 
 
     }

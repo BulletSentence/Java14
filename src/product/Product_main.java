@@ -15,14 +15,11 @@ public class Product_main {
         cellphone.discount = 0.10;
         cellphone.price = 5000;
 
-        double finalPrice_cel = cellphone.price * (1 - cellphone.discount);
-        double finalPrice_pro = product.price * (1 - product.discount);
-
         System.out.println(cellphone.name);
-        System.out.println("Preço: "+finalPrice_cel);
+        System.out.println("Preço: "+ cellphone.finalprice());
 
         System.out.println(product.name);
-        System.out.println("Preço: "+finalPrice_pro);
+        System.out.println("Preço: "+ product.finalprice());
 
 
     }

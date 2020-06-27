@@ -4,14 +4,12 @@ public class Product_main {
 
     public static void main(String[] args) {
 
-        Product product = new Product();
-        Product cellphone = new Product();
+        Product product = new Product("Notbook");
+        Product cellphone = new Product("Xiaomi");
 
-        product.name = "Notbook";
         product.discount = 0.25;
         product.price = 1000;
-
-        cellphone.name = "Xiaomi";
+        
         cellphone.discount = 0.10;
         cellphone.price = 5000;
 

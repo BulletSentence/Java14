@@ -8,8 +8,5 @@ public class imports {
         Date date = new Date();
         System.out.println(msg+date);
 
-
-
-
     }
 }

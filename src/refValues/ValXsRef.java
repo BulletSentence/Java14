@@ -8,7 +8,7 @@ public class ValXsRef {
         double b = a;
 
         a++;
-        b--;    
+        b--;
 
         System.out.println(a + " " + b);
 

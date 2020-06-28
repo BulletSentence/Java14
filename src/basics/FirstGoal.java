@@ -10,6 +10,6 @@ public class FirstGoal {
 
         FirstGoal statico = new FirstGoal();
         System.out.println(statico.b);
-       
+
     }
 }

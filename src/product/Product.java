@@ -9,6 +9,10 @@ public class Product {
         name = nomeDoProduto;
     }
 
+    Product (){
+
+    }
+
     double finalprice() {
      return price * (1 - discount);
     }

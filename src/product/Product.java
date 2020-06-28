@@ -3,7 +3,7 @@ package product;
 public class Product {
     String name;
     double price;
-    double discount;
+    final double discount = 0.25;
 
     Product (String nomeDoProduto){
         name = nomeDoProduto;

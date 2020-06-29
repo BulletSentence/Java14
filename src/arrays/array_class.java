@@ -1,5 +1,4 @@
 package arrays;
-
 import java.util.Arrays;
 
 public class array_class {
@@ -19,7 +18,7 @@ public class array_class {
 
         double media = 0;
 
-        for (int loop = 0; loop < 3; loop++){
+        for (int loop = 0; loop < grades.length; loop++){
             System.out.println(grades[loop]);
             media += grades[loop];
         }

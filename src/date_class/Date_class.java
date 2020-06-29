@@ -19,6 +19,6 @@ public class Date_class {
     }
 
     Date_class() {
-        
+
     }
 }
